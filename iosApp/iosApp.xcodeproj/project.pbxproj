@@ -13,6 +13,12 @@
 		AAD990432113367E00CC0667 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAD990422113367E00CC0667 /* Assets.xcassets */; };
 		AAD990462113367E00CC0667 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAD990442113367E00CC0667 /* LaunchScreen.storyboard */; };
 		AAD9904E2113494E00CC0667 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = AAD9904D2113494E00CC0667 /* logo.png */; };
+		AAD990502113BCA400CC0667 /* group.png in Resources */ = {isa = PBXBuildFile; fileRef = AAD9904F2113BCA400CC0667 /* group.png */; };
+		AAD990542113BE1900CC0667 /* places.png in Resources */ = {isa = PBXBuildFile; fileRef = AAD990532113BE1900CC0667 /* places.png */; };
+		AAD990562113BF2100CC0667 /* tracker.png in Resources */ = {isa = PBXBuildFile; fileRef = AAD990552113BF2000CC0667 /* tracker.png */; };
+		AAD990582113BFA700CC0667 /* emergency.png in Resources */ = {isa = PBXBuildFile; fileRef = AAD990572113BFA700CC0667 /* emergency.png */; };
+		AAD9905A2113C1D800CC0667 /* picture.png in Resources */ = {isa = PBXBuildFile; fileRef = AAD990592113C1D800CC0667 /* picture.png */; };
+		AAD9905C2113C30300CC0667 /* picturefemale.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AAD9905B2113C30300CC0667 /* picturefemale.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +30,12 @@
 		AAD990452113367E00CC0667 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AAD990472113367E00CC0667 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AAD9904D2113494E00CC0667 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		AAD9904F2113BCA400CC0667 /* group.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = group.png; sourceTree = "<group>"; };
+		AAD990532113BE1900CC0667 /* places.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = places.png; sourceTree = "<group>"; };
+		AAD990552113BF2000CC0667 /* tracker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tracker.png; sourceTree = "<group>"; };
+		AAD990572113BFA700CC0667 /* emergency.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emergency.png; sourceTree = "<group>"; };
+		AAD990592113C1D800CC0667 /* picture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = picture.png; sourceTree = "<group>"; };
+		AAD9905B2113C30300CC0667 /* picturefemale.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = picturefemale.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,12 @@
 		AAD9903A2113367D00CC0667 /* iosApp */ = {
 			isa = PBXGroup;
 			children = (
+				AAD9905B2113C30300CC0667 /* picturefemale.jpg */,
+				AAD990592113C1D800CC0667 /* picture.png */,
+				AAD990572113BFA700CC0667 /* emergency.png */,
+				AAD990552113BF2000CC0667 /* tracker.png */,
+				AAD990532113BE1900CC0667 /* places.png */,
+				AAD9904F2113BCA400CC0667 /* group.png */,
 				AAD9904D2113494E00CC0667 /* logo.png */,
 				AAD9903B2113367D00CC0667 /* AppDelegate.swift */,
 				AAD9903D2113367D00CC0667 /* ViewController.swift */,
@@ -125,10 +143,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AAD990562113BF2100CC0667 /* tracker.png in Resources */,
 				AAD990462113367E00CC0667 /* LaunchScreen.storyboard in Resources */,
 				AAD9904E2113494E00CC0667 /* logo.png in Resources */,
 				AAD990432113367E00CC0667 /* Assets.xcassets in Resources */,
+				AAD9905C2113C30300CC0667 /* picturefemale.jpg in Resources */,
+				AAD990502113BCA400CC0667 /* group.png in Resources */,
+				AAD990542113BE1900CC0667 /* places.png in Resources */,
 				AAD990412113367D00CC0667 /* Main.storyboard in Resources */,
+				AAD990582113BFA700CC0667 /* emergency.png in Resources */,
+				AAD9905A2113C1D800CC0667 /* picture.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +308,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = iosApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -301,6 +326,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = iosApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
